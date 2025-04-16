@@ -1,0 +1,25 @@
+import type { ColumnSetting } from "@/components/column-settings-dialog"
+
+export const defaultColumns: ColumnSetting[] = [
+  { id: "ID", name: "ID", width: 60, visible: true },
+  { id: "Group", name: "그룹", width: 100, visible: true },
+  { id: "Check", name: "체크", width: 60, visible: true },
+  { id: "Conversation", name: "대화창명", width: 150, visible: true },
+  { id: "Name", name: "이름", width: 120, visible: true },
+  { id: "Phone_Number", name: "전화번호", width: 120, visible: true },
+  { id: "Email", name: "이메일", width: 150, visible: true },
+  { id: "Definition1", name: "정의1", width: 100, visible: true },
+  { id: "Definition2", name: "정의2", width: 120, visible: true },
+  { id: "Definition3", name: "정의3", width: 120, visible: true },
+  { id: "Memo", name: "메모", width: 150, visible: true },
+  { id: "Start_Or", name: "시작여부", width: 100, visible: true },
+  { id: "Whether_Or", name: "종업여부", width: 100, visible: true },
+  { id: "Checklist", name: "체크리스트확인", width: 120, visible: true },
+  { id: "Dialogue_Name", name: "카톡대화명", width: 120, visible: true },
+  { id: "Change_Name", name: "변경대화명", width: 120, visible: true },
+  { id: "kakao_add", name: "카톡친구추가", width: 120, visible: true },
+  { id: "edit_conversation", name: "대화명수정", width: 120, visible: true },
+  { id: "send", name: "발송", width: 100, visible: true },
+  { id: "duplicate_check", name: "중복확인", width: 150, visible: true },
+  { id: "actions", name: "작업", width: 100, visible: true },
+] 
